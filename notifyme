@@ -1,0 +1,4 @@
+#!/bin/bash
+notifyme(){
+python3 reporter.py "$ARN" "$OFFENDER" "$ResourceType" "$REGION" "$IpLocation" "$ACCOUNT_NUM"
+}
